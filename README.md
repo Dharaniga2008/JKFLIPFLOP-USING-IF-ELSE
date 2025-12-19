@@ -38,7 +38,8 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **PROGRAM**
 
- ```module jkff(j, k, clk, rst, q, qbar); 
+ ```
+module jkff(j, k, clk, rst, q, qbar); 
  input j;
 input k;
 input clk;
@@ -57,7 +58,8 @@ end else if (j==1'b1 && k==1'b0) begin q=1'b1;
 qbar=1'b0;
 end else begin q=~q;
 qbar=~qbar;
-end end endmodule```
+end end endmodule
+```
 
  
 <img width="978" height="320" alt="image" src="https://github.com/user-attachments/assets/10594482-adc5-4dfa-aa02-fa03a9d61b48" />
